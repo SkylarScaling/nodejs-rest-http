@@ -1,8 +1,7 @@
 {
   "name": "nodejs-rest-http",
-  "version": "3.0.2",
-  "author": "Red Hat, Inc.",
-  "license": "Apache-2.0",
+  "version": "0.0.1",
+  "author": "Skylar Scaling <skylar@redhat.com>",
   "scripts": {
     "test": "tape test/*.js | tap-spec",
     "test:integration": "tape test/integration/*.js | tap-spec",
@@ -35,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nodeshift-starters/nodejs-rest-http.git"
+    "url": "git://github.com/SkylarScaling/nodejs-rest-http"
   },
   "files": [
     "package.json",
@@ -45,10 +44,6 @@
     "LICENSE",
     "licenses"
   ],
-  "bugs": {
-    "url": "https://github.com/nodeshift-starters/nodejs-rest-http/issues"
-  },
-  "homepage": "https://github.com/nodeshift-starters/nodejs-rest-http",
   "devDependencies": {
     "coveralls": "^3.0.9",
     "js-yaml": "^3.13.1",
